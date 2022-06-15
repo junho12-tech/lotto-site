@@ -1,4 +1,78 @@
+@font-face {
+  font-family: 'HSSaemaul-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/HSSaemaul-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
 html,
 body {
   background-color: #000;
+  text-align: center;
+  align-items: center;
+}
+
+.lotto {
+  font-size: 2.2rem;
+  font-family: 'HSSaemaul-Regular';
+  margin-top: 15vh;
+  color: #fff;
+}
+
+.circleContainer {
+  margin-left: auto;
+  margin-right:  auto;
+  border: solid 1px #fff;
+  margin-top: 15vh;
+  width: 90vw;
+  max-width: 50rem;
+  height: 10vh;
+  color: #fff;
+}
+
+.circleContainer div {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-left: 3vw;
+  float: left;
+  text-align: center;
+  width: 6vh;
+  height: 6vh;
+  font-size: 3.5vh;
+  font-weight: bold;
+}
+
+.radious-orange {
+  background-color: orange;
+  border-radius: 50%;
+}
+.radious-red {
+  background-color: rgb(241, 141, 128);
+  color: white;
+  border-radius: 50%;
+}
+.radious-green {
+  background-color: rgb(107, 206, 158);
+  color: white;
+  border-radius: 50%;
+}
+.radious-yellow {
+  background-color: rgb(252, 196, 61);
+  color: white;
+  border-radius: 50%;
+}
+.radious-blue {
+  background-color: rgb(140, 198, 231);
+  color: white;
+  border-radius: 50%;
+}
+.radious-gray {
+  background-color: gray;
+  border-radius: 50%;
+}
+.radious-black {
+  background-color: rgb(167, 162, 222);
+  color: white;
+  border-radius: 50%;
 }
